@@ -3,6 +3,8 @@ import { TwitterCard } from '../components/TwitterCard'
 export default function Home() {
   return (
     <TwitterCard
+      type="retweet"
+      retweetedUser="しまぶー"
       user={{
         name: 'Canopus',
         accountName: 'canopus_account',
